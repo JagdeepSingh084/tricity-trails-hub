@@ -18,6 +18,13 @@
  * - Formats: JPG, PNG, WebP
  */
 
+import shimlaManaliImg from "@/assets/shimla-manali.jpg";
+import amritsarImg from "@/assets/amritsar.jpg";
+import dharamshalaImg from "@/assets/dharamshala.jpg";
+import kasauliImg from "@/assets/kasauli.jpg";
+import kufriImg from "@/assets/kufri.jpg";
+import heroImg from "@/assets/hero-image.jpg";
+
 export const SITE_CONFIG = {
   // ============================================
   // AGENCY INFORMATION
@@ -62,10 +69,10 @@ export const COMPLETED_TRIPS = [
     title: "Shimla - Manali Weekend Getaway",
     shortDesc: "A magical 3-day journey through the colonial charm of Shimla and adventure capital Manali",
     dateCompleted: "March 2024",
-    coverImage: "/src/assets/shimla-manali.jpg",
+    coverImage: shimlaManaliImg,
     gallery: [
-      "/src/assets/shimla-manali.jpg",
-      "/src/assets/hero-image.jpg",
+      shimlaManaliImg,
+      heroImg,
     ],
     testimonial: "Best trip ever! The arrangements were perfect and guides were knowledgeable. - Priya S."
   },
@@ -74,10 +81,10 @@ export const COMPLETED_TRIPS = [
     title: "Amritsar - Dharamshala Cultural Tour",
     shortDesc: "Experience spirituality at Golden Temple and Tibetan culture in the Himalayas",
     dateCompleted: "February 2024",
-    coverImage: "/src/assets/amritsar.jpg",
+    coverImage: amritsarImg,
     gallery: [
-      "/src/assets/amritsar.jpg",
-      "/src/assets/dharamshala.jpg",
+      amritsarImg,
+      dharamshalaImg,
     ],
     testimonial: "Deeply moving experience. The spiritual journey was exactly what I needed. - Rajesh K."
   },
@@ -86,10 +93,10 @@ export const COMPLETED_TRIPS = [
     title: "Kasauli - Kufri Day Trip",
     shortDesc: "Perfect day escape to colonial hill stations near Chandigarh",
     dateCompleted: "January 2024",
-    coverImage: "/src/assets/kasauli.jpg",
+    coverImage: kasauliImg,
     gallery: [
-      "/src/assets/kasauli.jpg",
-      "/src/assets/kufri.jpg",
+      kasauliImg,
+      kufriImg,
     ],
     testimonial: "Great for families! Kids loved Kufri and we enjoyed Kasauli's peace. - Sharma Family"
   },
@@ -108,7 +115,7 @@ export const FUTURE_TRIPS = [
     endDate: "2024-06-17",
     pricePerPerson: 12999,
     seatsLeft: 8,
-    coverImage: "/src/assets/shimla-manali.jpg",
+    coverImage: shimlaManaliImg,
     itineraryId: "shimla-manali-3day",
   },
   {
@@ -119,7 +126,7 @@ export const FUTURE_TRIPS = [
     endDate: "2024-07-04",
     pricePerPerson: 15999,
     seatsLeft: 12,
-    coverImage: "/src/assets/amritsar.jpg",
+    coverImage: amritsarImg,
     itineraryId: "amritsar-dharamshala-4day",
   },
   {
@@ -130,7 +137,7 @@ export const FUTURE_TRIPS = [
     endDate: "2024-06-22",
     pricePerPerson: 3999,
     seatsLeft: 20,
-    coverImage: "/src/assets/kasauli.jpg",
+    coverImage: kasauliImg,
     itineraryId: "kasauli-kufri-day",
   },
 ];
